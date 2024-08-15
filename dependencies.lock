@@ -1,0 +1,23 @@
+dependencies:
+  LED:
+    component_hash: f0b813ad0cc12447bf0ad655b28e4c0726a3bd655b40360a770ef8b750e70e67
+    source:
+      git: https://github.com/SitthaKlaphanich/LED_Test
+      path: components/LED
+      type: git
+    version: 298a85969959f1064a27ef71a2246696f0604c05
+  SEVENSEGMENT:
+    component_hash: 0adff170e9572f013f2cee40ccbcfe2bb7854f458fa5805ec3c21ae92092ba86
+    source:
+      git: https://github.com/SitthaKlaphanich/seven_segment
+      path: components/SevenSegment
+      type: git
+    version: d001f6a382cc4541cda7b6232bc2d70369295f31
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.3.0
+manifest_hash: b67b3a479f9844845f0ec39f6bc3796ab0a36f81cd401a7e735eea97bdddc9bf
+target: esp32
+version: 1.0.0
